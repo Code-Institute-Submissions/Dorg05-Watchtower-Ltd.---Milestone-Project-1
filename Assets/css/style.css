@@ -1,0 +1,45 @@
+body {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+#logo {
+    color: white;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+.btn--cta {
+    border-radius: 15px;
+    width: 100px;
+}
+
+.btn--green {
+    color: white;
+    background-color: #a2c11c;
+    border-color: #a2c11c;
+}
+
+.navbar {
+    background-color: #283739; 
+}
+.nav-link {
+    color: white;
+}
+
+/* Colors used */
+
+.first-color { 
+	background: #283739; 
+}
+	
+.second-color { 
+	background: #2c5d63; 
+}
+
+.third-color { 
+	background: #a2c11c; 
+}
+
+.fourth-color { 
+	background: #e0e0e0; 
+}
