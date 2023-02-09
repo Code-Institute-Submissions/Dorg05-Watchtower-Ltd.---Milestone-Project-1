@@ -1,12 +1,24 @@
 body {
     font-family: 'Proxima Nova', sans-serif;
 }
-
+ /*--Navbar--*/
 #logo {
     color: white;
     font-size: 200%;
     text-transform: uppercase;
 }
+
+.navbar {
+    background-color: #283739;
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: #a2c11c; 
+}
+.nav-link {
+    color: white;
+}
+
+/*--Buttons--*/
 
 .btn--cta {
     border-radius: 15px;
@@ -19,12 +31,90 @@ body {
     border-color: #a2c11c;
 }
 
-.navbar {
-    background-color: #283739; 
+/*--Descritpion--*/
+
+.description-container {
+    height: 100vh;
+    
+   
+    
+    background: url('../images/communication-4871245_960_720.jpeg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-.nav-link {
-    color: white;
+
+.description {
+    margin-top: 300px;
 }
+
+
+.description h5 {
+    color: black;
+}
+/*--Capabilities--*/
+
+.capabilities {
+    background-color:#283739;
+    border-style: solid;
+    border-width: 4px 0px 0px 0px;
+    border-color: #a2c11c; 
+
+}
+.capabilities h1,h5 {
+    color: #e0e0e0;
+    text-align: center; 
+}
+.capabilities i {
+    font-size: 30px;
+    padding: 0px 4px 0px 4px;
+}
+
+.team {
+    margin-top: 50px;
+    border-style: solid;
+    padding-left: 10px;
+    height: 120px;
+    width: 120px;
+    background-color: #e9ecef;
+}
+
+.reports {
+    margin-top: 50px;
+    border-style: solid;
+    height: 120px;
+    width: 120px;
+    background-color: #e9ecef;
+}
+.databases {
+    margin-top: 50px;
+    border-style: solid;
+    height: 120px;
+    width: 120px;
+    background-color: #e9ecef;
+}
+
+
+.items-highlight h5 {
+    color: black;
+}
+
+/* Footer */
+
+.social-media {
+    text-align: right;
+  }
+  .social-media li {
+    display: inline;
+  }
+  .social-media i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 0;
+    color:#2c5d63;
+  }
+
 
 /* Colors used */
 
