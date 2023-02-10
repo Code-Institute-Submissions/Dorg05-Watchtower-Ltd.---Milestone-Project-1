@@ -100,6 +100,40 @@ body {
     color: black;
 }
 
+/*Client Logos*/
+
+#client-logos {
+    /*copied code - stackoverflow*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;   
+
+
+
+  }
+
+.logo {
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.client-logos-heading {
+    font-size: 1.5rem;
+    margin-top: 50px;
+    color: black;
+}
+
+
+.WG {
+    text-align: center;
+}
+
+
+
+
+
 /* Footer */
 
 .social-media {
