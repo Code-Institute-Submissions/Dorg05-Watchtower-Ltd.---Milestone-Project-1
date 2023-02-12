@@ -38,7 +38,7 @@ body {
     
    
     
-    background: url('../images/communication-4871245_960_720.jpeg') no-repeat bottom right fixed;
+    background: url('../images/Skylight.avif') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -100,6 +100,12 @@ body {
     color: black;
 }
 
+.items-highlight i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 0;
+    color:#2c5d63;
+}
 /*Client Logos*/
 
 #client-logos {
