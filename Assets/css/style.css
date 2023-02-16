@@ -54,6 +54,23 @@ body {
 .description h5 {
     color: black;
 }
+
+.left {
+    position: relative;
+    top: 200px;
+    display: block;
+}
+.right {
+    position: relative;
+    top: 200px;
+    display: block;
+}
+.right img {
+    float: right;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
 /*--Capabilities--*/
 
 .capabilities {
@@ -185,6 +202,70 @@ body {
     padding: 0;
     color:white#2c5d63;
 }
+/* Services Page */
+
+/* Code from Love Running */
+
+#services-section h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#services-section hr {
+    width: 100%;
+    border: solid;
+    border-color: #2c5d63;
+    border-width: 1px;
+}
+#services-section li {
+    font-size: 18px;
+}
+
+#left-listing {
+    padding-top: 15px;
+    width: 33%;
+    float: left;
+}
+
+#right-listing {
+    padding-top: 15px;
+    width: 33%;
+    float: right;
+}
+
+#center-listing {
+    padding-top: 15px;
+    width: 33%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.center-items img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #283739;
+    margin-left: 170px;
+}
+
+.left-items {
+    width: 50%;
+    float: right;
+    clear: both;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+
+.right-items {
+    width: 50%;
+    float: left;
+    clear: both;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
 
 
 /* Colors used */
