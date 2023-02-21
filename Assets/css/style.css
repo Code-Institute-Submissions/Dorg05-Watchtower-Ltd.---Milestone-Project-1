@@ -117,7 +117,6 @@ body {
     background-color: #e9ecef;
 }
 
-
 .items-highlight h5 {
     color: black;
 }
@@ -210,9 +209,73 @@ body {
 
 /* Code from Love Running */
 
-.suppliers {
-    overflow: hidden;
+#services-section {
+    height: 600px;
+    color: white;
+
+    background: url('../images/Skylight.avif') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
+
+#left-section {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-section {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-section {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.left-items {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-items {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#Offer {
+    padding-top: 50px;
+}
+
+#square-container {
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #283739;
+    border-width: 1px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+    background: url('../images/firmbee-com-gcsNOsPEXfs-unsplash.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 /* Colors used */
 
 .first-color { 
