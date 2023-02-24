@@ -2,6 +2,21 @@
 body {
     font-family: 'Proxima Nova', sans-serif;
 }
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 150px;
+    height: 5px;
+    background-color: white;
+}
+
+.divider {
+    width: 100px;
+    height: 5px;
+    background-color: white
+}
+
  /*--Navbar--*/
 #logo {
     color: white;
@@ -124,6 +139,7 @@ body {
 
 .items-highlight h5 {
     color: black;
+    
 }
 
 .items-highlight i {
@@ -224,6 +240,9 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+#services-section li:hover {
+    text-decoration: underline;
+}
 
 #star {
     font-size: 100%;
@@ -292,7 +311,6 @@ body {
     background-position: center;
     height: 900px;
 }
-
 
 
 .signup {
