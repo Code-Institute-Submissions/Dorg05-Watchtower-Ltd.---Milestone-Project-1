@@ -1,6 +1,17 @@
-
+.row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
 body {
     font-family: 'Proxima Nova', sans-serif;
+    font-size: 16px;
+}
+  
+@media screen and (max-width: 575px) {
+    body {
+      font-size: 13px;
+    }
 }
 
 hr {
@@ -18,12 +29,18 @@ hr {
 }
 
  /*--Navbar--*/
-#logo {
+.logo {
     color: white;
     font-size: 200%;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
-
+@media screen and (max-width: 575px) {
+    .logo-container {
+      text-align: center;
+      justify-content: center !important;
+    }
+}
 .navbar {
     background-color: #283739;
     border-style: solid;
@@ -38,7 +55,8 @@ hr {
 
 .btn--cta {
     border-radius: 15px;
-    width: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .btn--green {
@@ -51,42 +69,44 @@ hr {
 /*--Descritpion--*/
 
 .description-container {
-    height: 100vh;
-    
-   
-    
-    background: url('../images/Skylight.avif') no-repeat bottom right fixed;
+     background: url('../images/Skylight.avif') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-.description {
-    position: relative;
-    top: 100px;
+#about {
+    margin-top: 12em;
+    margin-bottom: 12em;
 }
 
+@media screen and (max-width: 575px) {
+    #about {
+      margin-top: 8em;
+      margin-bottom: 3em;
+    }
+}
 
 .description {
     color: white;
+    margin-top: 10em;
+}
+
+@media screen and (max-width: 575px) {
+    .description {
+      margin-top: 6em;
+    }
 }
 
 .left {
-    position: relative;
-    top: 200px;
     display: block;
     color: white;
-    float: left;
 }
 .right {
-    position: relative;
-    top: 200px;
     display: block;
-    float: right;
 }
 .right img {
-    float: right;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -94,13 +114,14 @@ hr {
 /*--Capabilities--*/
 
 .capabilities {
+    padding: 1em;
     background-color:#283739;
     border-style: solid;
     border-width: 4px 0px 4px 0px;
     border-color: #a2c11c; 
 
 }
-.capabilities h1,h5 {
+.capabilities h2,h5 {
     color: #e0e0e0;
     text-align: center; 
 }
@@ -109,37 +130,22 @@ hr {
     padding: 0px 4px 0px 4px;
 }
 
-.team {
-    margin-top: 50px;
-    border-style: solid;
-    padding-left: 10px;
-    height: 120px;
-    width: 120px;
-    background-color: #e9ecef;
-}
-
-.reports {
-    margin-top: 50px;
-    border-style: solid;
-    height: 120px;
-    width: 120px;
-    background-color: #e9ecef;
-}
-.databases {
-    margin-top: 50px;
-    border-style: solid;
-    height: 120px;
-    width: 120px;
-    background-color: #e9ecef;
-}
-
 .items-highlight {
-    padding-bottom: 50px;
+    justify-content: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.items-highlight > div {
+    border-style: solid;
+    background-color: #e9ecef;
+    margin: 0 0.3em 2em 0.3em;
+    max-width: 300px;
+    padding: 0.5em;
 }
 
 .items-highlight h5 {
     color: black;
-    
 }
 
 .items-highlight i {
@@ -156,33 +162,34 @@ hr {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    position: relative;
-    bottom: 20px;   
+    margin: 2em 0;
+}
 
-
-
-  }
-
-.logo {
-    margin-top: 50px;
+.client-logo {
     height: 100px;
     width: 100px;
 }
 
 .client-logos-heading {
-    font-size: 1.5rem;
-    margin-top: 50px;
     color: black;
 }
 
+figure {
+    margin: 0 1em 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  @media screen and (max-width: 575px) {
+    figure {
+      flex-basis: 45%;
+    }
+}
 
 .WG {
     text-align: center;
 }
-
-
-
-
 
 /* Footer */
 
@@ -197,7 +204,6 @@ hr {
 .row-bottom {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .footer li {
@@ -205,15 +211,25 @@ hr {
     display: inline;
 }
 
-#pages ul, a {
-    position: relative;
-    top: 6px;
+.navbar-brand {
+    margin-right: 0;
+}
+
+a {
     display: inline;
     color: white;
 }
 
+#pages .row {
+    justify-content: center;
+  }
+  
+#pages a {
+    margin-right: 1em;
+  }
 .social-media {
     text-align: right;
+    padding: 0;
 }
 .social-media li {
     display: inline;
