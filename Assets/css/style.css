@@ -247,7 +247,7 @@ a {
 /* Code from Love Running */
 
 #services-section {
-    height: 600px;
+    height: 650px;
     color: white;
 
     background: url('../images/Skylight.avif') no-repeat bottom right fixed;
@@ -259,8 +259,8 @@ a {
 #services-section li:hover {
     text-decoration: underline;
 }
-/* Tablet Media Query*/
-@media screen and (max-width: 1200px ) {
+/* Tablet Media Query - Services Section */
+@media screen and (max-width: 1150px ) {
     #services-section {
         
         height: 1300px;
@@ -307,7 +307,7 @@ a {
     margin: 0 auto;
 }
 
-/* Mobile Media Query */
+/* Mobile Media Query - Services Section */
 @media screen and (max-width: 575px ) {
     #services-section {
         height: 1200px;
@@ -423,7 +423,6 @@ a {
     border-color: #a2c11c;
 }
 
-
 /* Map Section */
 #map {
     position: absolute;
@@ -441,8 +440,70 @@ a {
     padding-bottom: 50px;
     text-align: center;
 }
+/* Tablet Media Query - Contact Section */
 
+@media screen and (max-width: 1225px) {
+    #map {
+      width: 100%;
+      bottom: 5px;
+      position: relative;
+      top: 45%;
+      left: 7.5%;
+    }
+    .signup {
+      left: 27%;
+    }
+    #form-section {
+      height: 1700px;
+      
+    }
+}
 
+/* Mobile Media Query - Contact Section */
+
+@media screen and (max-width: 800px) {
+    #form-section {
+        height: 1600px;
+        width: 100%;
+    }
+    #map {
+        width: 100%;
+        position: relative;
+        left: 0%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #form-section {
+        height: 1600px;
+        width: 100%;
+    }
+    #map {
+        width: 100%;
+        position: relative;
+        left: 0%;
+    }
+    iframe {
+        float: none;
+        height: 600px;
+        width: 400px;
+        position: relative;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .signup {
+        padding-top: 0;
+        left: 5%;
+    }
+    iframe {
+        float: none;
+        height: 200px;
+        width: 300px;
+        
+    }
+}
 
 /* Colors used */
 
