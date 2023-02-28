@@ -127,3 +127,23 @@ Possible features include:
   - Git was used for version control. Gitpod was used to push the code to GitHub.
   - GitHub was used for code repository after the code was pushed from Git.
 
+  # Testing
+
+### Validator Testing 
+  * HTML Validator [Link](https://validator.w3.org/)
+  - index.html results
+  ![home](Assets/images/Validator-index.png)
+  - services.html results
+  ![services](Assets/images/Validator-index.png)
+  - contact.html results
+  ![contact](Assets/images/Validator-index.png)
+  * CSS Validator [Link](https://jigsaw.w3.org/css-validator/)
+  ![css](Assets/images/CSS-validator.png)
+
+### Known Bugs
+
+* On the Services Page in between 1150x860 - 1324x860 resolution my pricing heading breaks. I didn't manage to fix this by myself.
+![Bug1](Assets/images/Bug%201.png)
+* On all three pages in between 575x1178 and 765x1178 my footer doesn't look as expected.
+![Bug2](Assets/images/Bug2.png)
+
